@@ -368,7 +368,7 @@ a:focus, a:hover, a:active {
 /***** Footer ********************/
 
 #footer {
-	width: 960px;
+	width: 100%;
 	font-size: 11px;
 	margin: 0 auto 0;
 	padding: 10px 0 10px 0;
