@@ -52,7 +52,7 @@ a:focus, a:hover, a:active {
 #header {
 	width: 100%;
 	background: #F1F1F1;
-	height: 85px;
+	height: 64px;
 	margin: 0 auto 4px;
 	border-bottom: 1px solid #CCCCCC;
 	}
@@ -160,7 +160,7 @@ a:focus, a:hover, a:active {
 	background:#eee;
 	border-radius:3px;
 	width: 980px;
-	margin: -25px auto 0;
+	margin: 4px auto 0;
 	}
 
 .inner {
