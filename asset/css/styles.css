@@ -157,7 +157,7 @@ a:focus, a:hover, a:active {
 
 #inner {
 	padding:3px;
-	background:#eee;
+	background:#141414;
 	border-radius:3px;
 	width: 980px;
 	margin: 4px auto 0;
@@ -186,7 +186,6 @@ a:focus, a:hover, a:active {
 #content {
 	width: 66%;
 	float: left;
-	border-right: 1px solid #DDDDDD;
 	text-align: justify;
 	}
 
