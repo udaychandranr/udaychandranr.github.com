@@ -1,0 +1,113 @@
+/***** Headlines ********************/
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+	color: #333333;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+	}
+
+#content h1, #content h2 {
+	font-size: 22px;
+	}
+
+#content h2 a, #content h2 a:visited {
+	color: #333333;
+	text-decoration: none;
+	}
+	
+#content h2 a:hover {
+	color: #006699;
+	text-decoration: none;
+	}
+	
+#featured-top h2, #featured-top h2 a, #featured-bottom h2, #featured-bottom h2 a, #sidebar h2, #sidebar h2 a, #footer-widgets h2, #footer-widgets h2 a {
+	color: #333333;
+	font-size: 16px;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#featured-top h2 a:hover, #featured-bottom h2 a:hover, #sidebar h2 a:hover, #footer-widgets h2 a:hover {
+	color: #006699;
+	text-decoration: none;
+	}
+	
+#featured-top .ui-tabs h2, #featured-top .ui-tabs h2 a {
+	font-size: 20px;
+	margin: 0 0 5px 0;
+	}
+	
+#featured-bottom h2, #featured-bottom h2 a, #sidebar h2, #sidebar h2 a, #footer-widgets h2, #footer-widgets h2 a {
+	font-size: 14px;
+	margin: 0 !important;
+	}
+	
+#content h3 {
+	font-size: 18px;
+	}
+	
+#content h4 {
+	font-size: 16px;
+	}
+	
+#content #featured-top h4, #content #featured-bottom h4, #sidebar h4, #sidebar-alt h4, #footer-widgets h4 {
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 5px;
+	border-top: 3px solid #CCCCCC;
+	border-bottom: 1px dotted #AAAAAA;
+	}
+
+#sidebar h4, #sidebar-alt h4 {
+	margin: 0 0 5px 0;
+	}
+
+#footer-widgets h4 {
+	margin: 2px 0 10px 0;
+	padding: 5px 0 5px 5px;
+	border-top: none;
+	border-bottom: 1px dotted #AAAAAA;
+	}
+	
+#content h5 {
+	font-size: 14px;
+	}
+	
+#content h6 {
+	font-size: 12px;
+	}
+	
+/***** Unordered/Ordered Lists ********************/
+	
+#content ul, #content ol, #footer-widgets ul {
+	margin: 0;
+	padding: 0 0 15px 0;
+	}
+	
+#sidebar ul, #sidebar-alt ul, #sidebar ul ul, #sidebar-alt ul ul {
+	margin: 0;
+	padding: 0;
+	}
+
+#content ul li, #sidebar li, #sidebar-alt li, #footer-widgets ul li {
+	list-style-type: none;
+	background: url(images/sidebar-list.png) no-repeat top left;
+	margin: 0 0 3px 0;
+	padding: 0 0 0 13px;
+ 	word-wrap: break-word;
+	}
+
+#content .post ol li, #content .page ol li {
+	margin: 0 0 0 25px;
+	padding: 0;
+	}

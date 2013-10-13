@@ -1,0 +1,404 @@
+/*
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+body {
+	color:#333333;
+	background-color:#fff;
+	font-size: 13px;
+	font-family: Arial, Tahoma, Verdana;
+	margin: 0 auto 0;
+	padding: 0;
+	line-height: 20px;
+	border-left: 1px solid #222;
+	}
+	
+p {
+	margin: 0;
+	padding: 0;
+	}
+
+/***** Hyperlinks ********************/
+
+a, a:visited {
+	color: #006699;
+	text-decoration: underline;
+	}
+	
+a:hover {
+	color: #AC0101;
+	text-decoration: none;
+	}
+	
+a img {
+	border: none;
+	}
+	
+a:focus, a:hover, a:active {
+	outline: none;
+	}
+
+/***** Wrap ********************/
+
+.wrap {
+	margin: auto;
+	width: 980px;
+	padding: 0;
+}
+	
+/***** Header  ********************/
+
+#header {
+	width: 100%;
+	background: #F1F1F1;
+	height: 64px;
+	margin: 0 auto 4px;
+	border-bottom: 1px solid #CCCCCC;
+	}
+
+#title-area {
+	width: 480px;
+	float: left;
+	margin: 0; 
+	padding: 0;
+	overflow: hidden;
+	}
+	
+#title-area #title {
+	color: #333333;
+	font-size: 36px;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	line-height: 42px;
+	}
+	
+#title-area #title a {
+	color: #333333;
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#title-area #title a:hover {
+	color: #333333;
+	text-decoration: none;
+	}
+	
+#title-area #description {
+	color: #666666;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0; 
+	padding: 0 0 0 10px;
+	}
+
+#header .widget-area {
+	width: 470px;
+	float: right;
+	margin: auto; 
+	padding: 2px 5px 0 0;
+	}
+	
+#header .widget-area p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	}
+	
+#header .widget-area h4 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 10px 0 0 0; 
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#header .widget-area ul {
+	margin: 0;
+	padding: 0;
+	}
+	
+#header .widget-area ul li {
+	list-style-type: square;
+	margin: 0 0 0 20px;
+	padding: 0;
+	}
+	
+/***** Image Header - Partial Width ********************/
+
+.header-image #title-area, .header-image #title-area #title, .header-image #title-area #title a {
+	display: block; 
+	float: left;
+	width: 290px;
+	height: 80px;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+	
+.header-image #title-area #description {
+	display: block;
+	width: 0; 
+	height: 0;
+	overflow: hidden;
+	}
+
+/***** Image Header - Full Width ********************/
+
+.header-full-width #title-area, .header-full-width #title-area #title, .header-full-width #title-area #title a {
+	width: 980px;
+	}
+
+/***** Inner ********************/
+
+#inner {
+	padding:3px;
+	background:#eee;
+	border-radius:3px;
+	width: 980px;
+	margin: 4px auto 0;
+	}
+
+.inner {
+	background-color: #fff;
+	overflow: hidden;
+	border:1px solid #cfcfcf;
+	border-radius:2px;
+	}
+	
+.inner-status {
+	padding:3px;
+	background:#eee;
+	border-bottom:1px solid #cfcfcf;
+	}
+
+/***** Content ********************/
+
+#content-sidebar-wrap {
+	width: 960px;
+	margin: auto;
+	}
+
+#content {
+	width: 66%;
+	float: left;
+	text-align: justify;
+	}
+
+#content .p {
+	font-size: 14px;
+	}
+	
+#content blockquote {
+	background: #F4F4F4;
+	margin: 0 15px 15px 15px;
+	padding: 10px 20px 0 15px;
+	border: 1px solid #DDDDDD;
+	}
+	
+#content .page {
+	margin: 0;
+	padding: 0 0 20px 0;
+	}
+
+#content .post {
+	margin: 0 0 40px 0;
+	padding: 0;
+	}
+	
+.home #content .post {
+	margin: 0 0 10px 0;
+	padding: 0;
+	}
+	
+#content .post p, #content .page p {
+	margin: 0;
+	padding: 0 0 15px 0;
+	}
+	
+#content .sticky {
+	background: #F4F4F4;
+	margin: 0 0 40px 0;
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	}
+	
+#content .archive-page {
+	float: left;
+	width: 45%;
+	margin: 0;
+	padding: 20px 0 20px 0;
+	}
+
+.clear {
+	clear: both;
+	}
+
+/***** Primary & Secondary Sidebars ********************/
+
+#sidebar {
+	width: 32%;
+	max-width: 300px;
+	float: right;
+	display: inline;
+	}
+	
+#sidebar-alt {
+	width: 140px;
+	float: left;
+	display: inline;
+	}
+	
+#sidebar-bottom-left {
+	width: 145px;
+	float: left;
+	display: inline;
+	}
+	
+#sidebar-bottom-right {
+	width: 145px;
+	float: right;
+	display: inline;
+	}
+
+.sidebar-content #sidebar, .sidebar-sidebar-content #sidebar {
+	float: left;
+	}
+	
+.content-sidebar-sidebar #sidebar-alt {
+	float: right;
+	}
+
+#sidebar .widget, #sidebar-alt .widget {
+	margin: 0 0 20px 0;
+	padding: 0;
+	}
+	
+#sidebar embed, #sidebar object, #sidebar-alt embed, #sidebar-alt object {
+	width: 300px; 
+	height: 225px;
+	margin: 10px 0 0 0; 
+	padding: 0;
+	}
+	
+/***** Sidebar(s) Dropdowns ********************/
+	
+#cat, #sidebar .widget_archive select, #sidebar-alt .widget_archive select {
+	background: #F4F4F4;
+	width: 100%;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 10px 0 5px 0;
+	padding: 3px;
+	display: inline;
+	border: 1px solid #DDDDDD;
+	}
+
+/***** Sidebar(s) User Profile ********************/
+
+#sidebar .user-profile, #sidebar-alt .user-profile {
+	overflow: hidden;
+	}
+
+#sidebar .user-profile .avatar, #sidebar-alt .user-profile .avatar {
+	background: #F4F4F4;
+	float: left;
+	margin: 0;
+	padding: 4px;
+	border: 1px solid #DDDDDD;
+	}
+	
+#sidebar .user-profile p, #sidebar-alt .user-profile p {
+	margin: 0;
+	padding: 10px 10px 0 10px;
+	}
+
+#sidebar .user-profile .posts_link, #sidebar-alt .user-profile .posts_link {
+	margin: 0;
+	padding: 0 0 10px 10px;
+	}
+	
+/***** Footer Widgets ********************/
+	
+#footer-widgets {
+	width: 960px;
+	font-size: 12px;
+	margin: 0 auto 0;
+	border-top: 3px solid #CCCCCC;
+	overflow: hidden;
+	clear: both;
+	}
+	
+#footer-widgets .wrap {
+	width: 920px;
+	margin: 0 auto 0;
+	}
+	
+#footer-widgets .widget {
+	background: none;
+	border: none;
+	}
+	
+#footer-widgets p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	}
+
+.footer-widgets-1 {
+	width: 295px;
+	float: left;
+	padding: 0 20px 0 0;
+	}
+	
+.footer-widgets-2 {
+	width: 290px;
+	float: left;
+	}
+	
+.footer-widgets-3 {
+	width: 295px;
+	float: right;
+	}
+
+/***** Footer ********************/
+
+#footer {
+	width: 960px;
+	font-size: 11px;
+	margin: 0 auto 0;
+	padding: 10px 0 10px 0;
+	text-transform: uppercase;
+	border-top: 3px solid #CCCCCC;
+	overflow: hidden;
+	clear: both; 
+	}
+
+#footer a, #footer a:visited {
+	color: #333333;
+	text-decoration: none;
+	}
+	
+#footer a:hover {
+	color: #006699;
+	text-decoration: none;
+	}
+
+#footer .gototop {
+	width: 200px;
+	float: left;
+	margin: 0;
+	padding: 0 0 0 5px;
+	}
+
+#footer .creds {
+	width: 720px;
+	float: right;
+	margin: 0;
+	padding: 0 5px 0 0;
+	text-align: right;
+	}
