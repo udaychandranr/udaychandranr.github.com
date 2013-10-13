@@ -157,7 +157,7 @@ a:focus, a:hover, a:active {
 
 #inner {
 	padding:3px;
-	background:#141414;
+	background:#eee;
 	border-radius:3px;
 	width: 980px;
 	margin: 4px auto 0;
@@ -368,7 +368,7 @@ a:focus, a:hover, a:active {
 /***** Footer ********************/
 
 #footer {
-	width: 100%;
+	width: 960px;
 	font-size: 11px;
 	margin: 0 auto 0;
 	padding: 10px 0 10px 0;
