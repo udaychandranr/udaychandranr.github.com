@@ -186,6 +186,7 @@ a:focus, a:hover, a:active {
 #content {
 	width: 66%;
 	float: left;
+	border-right: 1px solid #DDDDDD;
 	text-align: justify;
 	}
 
